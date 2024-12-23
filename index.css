@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-size: 12px;
+}
+
+input, textarea{
+  border: 1px solid #9ca3af39;
+  border-radius: 8px;
+  padding: 3px 5px;
+}
+
+textarea{
+  height: 80px;
+}
+
+input, textarea::placeholder{
+  font-size: 10px;
+  font-weight: 500;
+}
